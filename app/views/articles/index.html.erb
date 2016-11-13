@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Title</th>
+      <th>Category</th>
       <th>Text</th>
       <th>Is published</th>
       <th>Published at</th>
@@ -17,6 +18,7 @@
     <% @articles.each do |article| %>
       <tr>
         <td><%= article.title %></td>
+        <td><%= article.category.name if article.category.present?  %></td>
         <td><%= article.text %></td>
         <td><%= article.is_published %></td>
         <td><%= article.published_at %></td>
