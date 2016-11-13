@@ -6,15 +6,15 @@
 </p>
 
 <p>
+  <strong>Category:</strong>
+  <%= @article.category.name if @article.category.present? %>
+</p>
+
+<p>
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
 
-
-<p>
-  <strong>Category:</strong>
-  <%= @article.category.name if @article.category.present? %>
-</p>
 
 <p>
   <strong>Is published:</strong>
