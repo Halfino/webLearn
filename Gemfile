@@ -32,7 +32,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
   gem 'annotate', '~> 2.7', '>= 2.7.1'
-  gem 'simple_form', '~> 3.2', '>= 3.2.1'
+  gem 'simple_form'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
